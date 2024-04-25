@@ -1,0 +1,28 @@
+{
+  "name": "vs-decoration-debug-example",
+  "version": "1.0.0",
+  "description": "for resolve https://github.com/microsoft/vscode/issues/210393",
+  "main": "./dist/extension.js",
+  "scripts": {
+    "compile": "tsc -p ./",
+    "vscode:package": "vsce package --out package"
+  },
+  "engines": {
+    "vscode": "^1.87.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/vscode": "^1.87.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/changchanghwang/vscode_decoration_debug"
+  }
+}
